@@ -1,0 +1,75 @@
+* {
+    margin: 0%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.navbar-container {
+    display: flex;
+    width: 97.70vw;
+    height: 7.15vh;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-right: 0.8rem;
+    padding-left: 1.3rem;
+    border-bottom: 1px solid #DADCE0;
+}
+
+.menu-icon {
+    align-self: center;
+    justify-self: flex-start;
+}
+
+.logo-title-icon {
+    display: flex;
+    align-self: center;
+    padding-left: 1.5rem;
+    padding-right: 7rem;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    width: 52.72vw;
+    height: 4.26vh;
+    padding-right: 1.5rem;
+    padding-left: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 0.1rem;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+    margin-bottom: 0rem;
+    border: 1px solid #C4C5C6;
+    border-radius: 4px;
+    align-self: center;
+    input {
+        border: none transparent;
+        outline: none;
+        padding: 0%;
+        width: 47.22vw;
+        height: 4.26vh;
+        font-size: 1.6rem;
+        color: #202124;
+    }
+}
+
+.search-bar-icon {
+    align-self: center;
+}
+
+.bar-icon-group1 {
+    display: flex;
+    width: 16.10vw;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.bar-icon-group2 {
+    display: flex;
+    width: 10.26vw;
+    align-items: center;
+    justify-content: flex-end;
+}
